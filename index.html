@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" placeholder="top-text" id="top-text" />
+      <input type="text" placeholder="bot-text" id="bot-text" />
+      <input type="text" placeholder="img-url" id="img-url" />
+      <button id="add">add</button>
+    </div>
+    <div id="memeClone" hidden>
+      <div class="meme">
+        <p class="top"></p>
+        <img class="image" src="" alt="" />
+        <p class="bot"></p>
+
+        <button class="btn-remove">remove</button>
+      </div>
+    </div>
+    <div id="memes"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="rootReducer.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
